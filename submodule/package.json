@@ -1,0 +1,10 @@
+{
+  "name": "submodule",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node -r linked"
+  },
+  "dependencies": {
+    "linked": "link:../linked"
+  }
+}
